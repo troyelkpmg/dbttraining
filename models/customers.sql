@@ -66,4 +66,5 @@ final as (
 
 )
 
-select * from final
+select * from final UNION ALL
+SELECT * from final
